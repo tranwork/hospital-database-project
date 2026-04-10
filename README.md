@@ -1,22 +1,26 @@
 # Hospital Database Project
 
 ## Overview
-This project is a SQL Server database designed to manage hospital operations such as patients, doctors, treatments, and admissions.
+This project is a relational SQL Server database designed to manage hospital operations, including patients, doctors, nurses, treatments, ward assignments, and billing records.
+
+## Project Files
+- `hospital_database_project.sql` - SQL script to create the database schema
+- `ERD and EERD.pdf` - entity relationship diagrams
+- `Data Preview.pdf` - data from all tables
+- `Data Dictionary.pdf` - detailed table and column documentation
 
 ## Features
-- Relational database schema
+- Relational schema design
 - Primary and foreign key constraints
-- Data integrity checks
-- Real-world hospital structure
+- Data validation rules
+- Sample records for testing
+- Supporting design documentation
 
 ## Tools Used
-- Microsoft SQL Server
+- SQL Server
 - SQL Server Management Studio (SSMS)
 
 ## How to Run
 1. Open SSMS
-2. Run the SQL script file
-3. Database and tables will be created automatically
-
-## Files
-- hospital_database_project.sql: full database schema and constraints
+2. Open the SQL script
+3. Execute the script in a clean SQL Server environment
